@@ -1,0 +1,626 @@
+/* Reset some default styles */
+body,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+
+/* Dark Header Styles */
+.dark-header {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dark-header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.dark-header nav ul {
+  display: flex;
+}
+
+.dark-header nav ul li {
+  margin-right: 20px;
+}
+
+.dark-header nav ul li:last-child {
+  margin-right: 0;
+}
+
+.dark-header nav ul li a {
+  color: #fff; /* White link color */
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.dark-header nav ul li a:hover {
+  color: #ff9900; /* Hover color */
+}
+/* Dark Header Styles (as provided in the previous response) */
+
+/* Hero Section Styles */
+.hero {
+  background-image: url("hero-background.jpg"); /* Add your background image */
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* White text color */
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #ff9900; /* Button background color */
+  color: #333; /* Button text color */
+  padding: 15px 30px;
+  font-size: 20px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #ffcc00; /* Button background color on hover */
+}
+/* Dark Header Styles (as provided in the previous response) */
+
+/* Hero Section Styles (as provided in the previous response) */
+
+/* Product Showcase Styles */
+.product-showcase {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 60px 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product {
+  max-width: 300px;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: #222; /* Darker background color for each product */
+  border-radius: 10px;
+}
+
+.product img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.product h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.product p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.product .price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.product .cta-button {
+  display: inline-block;
+  background-color: #ff9900; /* Button background color */
+  color: #333; /* Button text color */
+  padding: 10px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.product .cta-button:hover {
+  background-color: #ffcc00; /* Button background color on hover */
+}
+/* Dark Header Styles (as provided in the previous response) */
+
+/* Hero Section Styles (as provided in the previous response) */
+
+/* Product Showcase Styles (as provided in the previous response) */
+
+/* About Us Section Styles */
+.about-us {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 60px 0;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-us h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  font-size: 18px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+/* Dark Header Styles (as provided in the previous responses) */
+
+/* Hero Section Styles (as provided in the previous responses) */
+
+/* Product Showcase Styles (as provided in the previous responses) */
+
+/* About Us Section Styles (as provided in the previous responses) */
+
+/* Testimonials Section Styles */
+.testimonials {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 60px 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.testimonial {
+  max-width: 400px;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: #222; /* Darker background color for each testimonial */
+  border-radius: 10px;
+}
+
+.testimonial blockquote {
+  font-size: 20px;
+  font-style: italic;
+  margin: 20px 0;
+}
+
+.testimonial p {
+  font-size: 16px;
+  margin: 0;
+}
+/* Dark Header Styles (as provided in the previous responses) */
+
+/* Hero Section Styles (as provided in the previous responses) */
+
+/* Product Showcase Styles (as provided in the previous responses) */
+
+/* About Us Section Styles (as provided in the previous responses) */
+
+/* Testimonials Section Styles (as provided in the previous responses) */
+
+/* Blog Section Styles */
+.blog {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 60px 0;
+  text-align: center;
+}
+
+.blog h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.blog-article {
+  max-width: 400px;
+  text-align: left;
+  margin: 0 auto 20px;
+  padding: 20px;
+  background-color: #222; /* Darker background color for each blog article */
+  border-radius: 10px;
+}
+
+.blog-article img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.blog-article h3 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.blog-article p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.blog-article a {
+  display: inline-block;
+  background-color: #ff9900; /* Button background color */
+  color: #333; /* Button text color */
+  padding: 10px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+.blog-article a:hover {
+  background-color: #ffcc00; /* Button background color on hover */
+}
+/* Dark Header Styles (as provided in the previous responses) */
+
+/* Hero Section Styles (as provided in the previous responses) */
+
+/* Product Showcase Styles (as provided in the previous responses) */
+
+/* About Us Section Styles (as provided in the previous responses) */
+
+/* Testimonials Section Styles (as provided in the previous responses) */
+
+/* Blog Section Styles (as provided in the previous responses) */
+
+/* Contact Information Section Styles */
+.contact-info {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 60px 0;
+  text-align: center;
+}
+
+.contact-info h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.info-item {
+  max-width: 300px;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: #222; /* Darker background color for each info item */
+  border-radius: 10px;
+}
+
+.info-item h3 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.info-item p {
+  font-size: 18px;
+  margin: 0;
+}
+/* Dark Header Styles (as provided in the previous responses) */
+
+/* Hero Section Styles (as provided in the previous responses) */
+
+/* Product Showcase Styles (as provided in the previous responses) */
+
+/* About Us Section Styles (as provided in the previous responses) */
+
+/* Testimonials Section Styles (as provided in the previous responses) */
+
+/* Blog Section Styles (as provided in the previous responses) */
+
+/* Contact Information Section Styles (as provided in the previous response) */
+
+/* Footer Section Styles */
+.dark-footer {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.copyright {
+  font-size: 14px;
+}
+
+.social-links {
+  font-size: 18px;
+}
+
+.social-icon {
+  color: #fff; /* White icon color */
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-icon:hover {
+  color: #ff9900; /* Icon color on hover */
+}
+/* Dark Header Styles (as provided in the previous responses) */
+
+/* Hero Section Styles (as provided in the previous responses) */
+
+/* Product Showcase Styles (as provided in the previous responses) */
+
+/* About Us Section Styles (as provided in the previous responses) */
+
+/* Testimonials Section Styles (as provided in the previous responses) */
+
+/* Blog Section Styles (as provided in the previous responses) */
+
+/* Contact Information Section Styles (as provided in the previous response) */
+
+/* CTA Section Styles */
+.cta {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 60px 0;
+  text-align: center;
+}
+
+.cta h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.cta p {
+  font-size: 18px;
+  margin: 0 0 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #ff9900; /* Button background color */
+  color: #333; /* Button text color */
+  padding: 15px 30px;
+  font-size: 20px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #ffcc00; /* Button background color on hover */
+}
+/* Dark Header Styles (as provided in the previous responses) */
+
+/* Hero Section Styles (as provided in the previous responses) */
+
+/* Product Showcase Styles (as provided in the previous responses) */
+
+/* About Us Section Styles (as provided in the previous responses) */
+
+/* Testimonials Section Styles (as provided in the previous responses) */
+
+/* Blog Section Styles (as provided in the previous responses) */
+
+/* Contact Information Section Styles (as provided in the previous response) */
+
+/* Call to Action (CTA) Section Styles (as provided in the previous response) */
+
+/* Interactive Elements Section Styles */
+.interactive-elements {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 60px 0;
+  text-align: center;
+}
+
+.interactive-elements h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.interactive-elements p {
+  font-size: 18px;
+  margin: 0 0 30px;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-group {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #777;
+  border-radius: 5px;
+}
+
+.form-group textarea {
+  resize: none;
+}
+
+.interactive-button {
+  margin-top: 40px;
+}
+
+#interactive-button {
+  background-color: #ff9900; /* Button background color */
+  color: #333; /* Button text color */
+  padding: 15px 30px;
+  font-size: 20px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#interactive-button:hover {
+  background-color: #ffcc00; /* Button background color on hover */
+}
+/* Dark Header Styles (as provided in the previous responses) */
+
+/* Hero Section Styles (as provided in the previous responses) */
+
+/* Product Showcase Styles (as provided in the previous responses) */
+
+/* About Us Section Styles (as provided in the previous responses) */
+
+/* Testimonials Section Styles (as provided in the previous responses) */
+
+/* Blog Section Styles (as provided in the previous responses) */
+
+/* Contact Information Section Styles (as provided in the previous response) */
+
+/* Call to Action (CTA) Section Styles (as provided in the previous response) */
+
+/* Interactive Elements Section Styles (as provided in the previous response) */
+
+/* Visual Elements Section Styles */
+.visual-elements {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 60px 0;
+  text-align: center;
+}
+
+.visual-elements h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.image-container {
+  margin: 20px 0;
+}
+
+.image-container img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.icon-container {
+  font-size: 36px;
+  margin: 20px 0;
+}
+
+.icon-container i {
+  margin: 0 10px;
+}
+/* Dark Header Styles (as provided in the previous responses) */
+
+/* Hero Section Styles (as provided in the previous responses) */
+
+/* Product Showcase Styles (as provided in the previous responses) */
+
+/* About Us Section Styles (as provided in the previous responses) */
+
+/* Testimonials Section Styles (as provided in the previous responses) */
+
+/* Blog Section Styles (as provided in the previous responses) */
+
+/* Contact Information Section Styles (as provided in the previous response) */
+
+/* Call to Action (CTA) Section Styles (as provided in the previous response) */
+
+/* Interactive Elements Section Styles (as provided in the previous response) */
+
+/* Visual Elements Section Styles (as provided in the previous response) */
+
+/* Mobile Responsiveness */
+@media only screen and (max-width: 768px) {
+  /* Adjust styles for smaller screens here */
+  .dark-header {
+    /* Modify header styles for mobile devices */
+  }
+
+  .hero {
+    /* Modify hero section styles for mobile devices */
+  }
+
+  .product-showcase {
+    /* Modify product showcase styles for mobile devices */
+  }
+
+  .about-us {
+    /* Modify about us section styles for mobile devices */
+  }
+
+  .testimonials {
+    /* Modify testimonials section styles for mobile devices */
+  }
+
+  .blog {
+    /* Modify blog section styles for mobile devices */
+  }
+
+  .contact-info {
+    /* Modify contact information section styles for mobile devices */
+  }
+
+  .cta {
+    /* Modify call to action section styles for mobile devices */
+  }
+
+  .interactive-elements {
+    /* Modify interactive elements section styles for mobile devices */
+  }
+
+  .visual-elements {
+    /* Modify visual elements section styles for mobile devices */
+  }
+}
